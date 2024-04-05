@@ -16,7 +16,7 @@ const pages = [loginUrl];
 export const options = {
   stages: [
     { duration: "5s", target: 2 },
-    { duration: "5s", target: 2 }, // 30 VUs for 10 seconds
+    { duration: "20s", target: 5 }, // 5 VUs for 20 seconds
     { duration: "5s", target: 2 },
   ],
 };
